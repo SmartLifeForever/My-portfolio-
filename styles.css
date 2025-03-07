@@ -50,7 +50,7 @@ position: fixed;
                                                                                                                         /* Animation du nom */
                                                                                                                         #auto-typing::after {
                                                                                                                             content: '|';
-                                                                                                                                animation: blink 0.7s step-end infinite;
+                                                                                                                                animation: blink 0.2s step-end infinite;
                                                                                                                                 }
 
                                                                                                                                 @keyframes blink {
