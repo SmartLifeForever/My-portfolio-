@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Portfolio - Mohamed Yassim Issah</title>
+                <link rel="stylesheet" href="styles.css">
+                </head>
+                <body>
+
+                <!-- Navbar -->
+                <nav id="navbar">
+                    <a href="#welcome-section" class="nav-link">Accueil</a>
+                        <a href="#about-section" class="nav-link">À propos</a>
+                            <a href="#projects" class="nav-link">Projets</a>
+                                <a href="#contact" class="nav-link">Contact</a>
+                                </nav>
+
+                                <!-- Section d'accueil -->
+                                <section id="welcome-section">
+                                    <h1 id="auto-typing">Mohamed Yassim Issah </h1>
+                                        <p>Bienvenue sur mon portfolio ! Découvrez mes projets et mon parcours dans l'univers du développement web et de la cybersécurité.</p>
+                                        </section>
+
+                                        <!-- Section À propos -->
+                                        <section id="about-section">
+                                            <h2>À propos de moi</h2>
+                                                <p>Je suis <strong>Mohamed Yassim Issah</strong>, étudiant en Licence 2 Informatique à l'Université de Ngaoundéré, passionné par la programmation web, la cybersécurité et l'ingénierie des bases de données.  
+                                                    J’ai fondé <strong>SMART LIFE FOREVER</strong>, une entreprise qui allie technologie, formation et entrepreneuriat pour aider les jeunes à se développer et à réussir.  
+                                                        Mon objectif est de partager mes connaissances à travers des formations abordables et de construire des projets innovants qui impactent positivement ma communauté.</p>
+                                                        </section>
+
+                                                        <!-- Section Projets -->
+                                                        <section id="projects">
+                                                            <h2>Mes Projets</h2>
+                                                                <div class="project-tile">
+                                                                        <a href="https://smartlifeforever.github.io/.net/" target="_blank">Smart Life Forever (En ligne)</a>
+                                                                            </div>
+                                                                                <div class="project-tile">
+                                                                                        <a href="#" target="_blank">Calendrier (Bientôt en ligne)</a>
+                                                                                            </div>
+                                                                                                <div class="project-tile">
+                                                                                                        <a href="#" target="_blank">Jeu de ballon (Bientôt en ligne)</a>
+                                                                                                            </div>
+                                                                                                                <div class="project-tile">
+                                                                                                                        <a href="#" target="_blank">Cube animation 3D (Bientôt en ligne)</a>
+                                                                                                                            </div>
+                                                                                                                                <div class="project-tile">
+                                                                                                                                        <a href="#" target="_blank">Calculatrice (Bientôt en ligne)</a>
+                                                                                                                                            </div>
+                                                                                                                                                <div class="project-tile">
+                                                                                                                                                        <a href="#" target="_blank">Pingouin animé (Bientôt en ligne)</a>
+                                                                                                                                                            </div>
+                                                                                                                                                                <div class="project-tile">
+                                                                                                                                                                        <a href="#" target="_blank">Cercle animé (Bientôt en ligne)</a>
+                                                                                                                                                                            </div>
+                                                                                                                                                                            </section>
+
+                                                                                                                                                                            <!-- Section Contact -->
+                                                                                                                                                                            <section id="contact">
+                                                                                                                                                                                <h2>Contactez-moi</h2>
+                                                                                                                                                                                    <p>Envie de collaborer ou de discuter d’un projet ? N'hésitez pas à me contacter !</p>
+                                                                                                                                                                                        <ul>
+                                                                                                                                                                                                <li><a id="profile-link" href="https://github.com/SmartLifeForever" target="_blank">GitHub</a></li>
+                                                                                                                                                                                                        <li><a href="https://www.linkedin.com/in/mohamed-yassim-issah-529422350" target="_blank">LinkedIn</a></li>
+                                                                                                                                                                                                                <li><a href="mailto:yassineissah231@gmail.com">Email : yassineissah231@gmail.com</a></li>
+                                                                                                                                                                                                                        <li><a href="https://www.facebook.com/yassine.smith.330" target="_blank">Facebook</a></li>
+                                                                                                                                                                                                                                <li><a href="https://www.instagram.com/ysn_am13" target="_blank">Instagram</a></li>
+                                                                                                                                                                                                                                        <li><a href="https://wa.me/237655620146" target="_blank">WhatsApp : +237 655620146</a></li>
+                                                                                                                                                                                                                                            </ul>
+                                                                                                                                                                                                                                            </section>
+
+                                                          script>
+                                                              const name = "Mohamed Yassim Issah";
+                                                                  let i = 0;
+                                                                      const titleElement = document.getElementById("auto-typing");
+                                                                          titleElement.innerHTML = ""; // Vide le h1 pour l'animation
+                                                                          
+                                                                              function typeEffect() {
+                                                                                      if (i < name.length) {
+                                                                                                  titleElement.innerHTML += name.charAt(i);
+                                                                                                              i++;
+                                                                                                                          setTimeout(typeEffect, 100);
+                                                                                                                                  }
+                                                                                                                                      }
+                                                                                                                                          typeEffect();
+                                                                                                                                          </script>
+                                                                                                                               </body>
+                                                                                                                       </html>
